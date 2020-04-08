@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ h1.heading{
+    text-align: center;
+    color: tomato;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+.container .dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+    text-transform: uppercase;
+    height: 400px;
+    width: 76%;
+    padding: 22px; 
+    border: 2px solid beige;
+-moz-box-shadow: -7px -8px 31px 0px rgba(131,133,114,1);
+box-shadow: -7px -8px 31px 0px rgba(131,133,114,1);
+}
+

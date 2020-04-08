@@ -1,0 +1,40 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0px;
+    height: 20px;
+    border: none;
+   
+}
+table th{
+    height: 23px;
+    width: 100px;
+    color: rgb(94, 92, 88);
+    text-transform: capitalize;
+    border-bottom: 3px solid rgb(194, 190, 190);
+    font-size: 22px;
+    outline: none;
+}
+ td{
+    margin-top: 12px;
+    padding: 12px;
+}
+.actions{
+     display: flex;
+    justify-content: space-between;
+}
+.btn{
+   
+    width: 100px;
+    height: auto;
+    background-color: aliceblue;
+    padding: 4px;
+
+    text-transform: capitalize;
+    cursor: pointer;
+        background: #403B4A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

@@ -1,0 +1,35 @@
+.frm {
+    margin: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.frm input[type='text'] {
+    margin: 2px 0px;
+    height: 20px;
+    padding: 11px;
+}
+
+.frm input::placeholder{
+    color: gainsboro;
+}
+.frm input:focus{
+    outline-color: red;
+}
+.frm input[type='submit']:hover{
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.frm input[type='submit']{
+    width: 100px;
+    height: 45px;
+    margin: 10px 0px;
+    cursor: pointer; 
+    color: white;
+    font-weight: 800;
+    background-color:#003973 ;
+}
